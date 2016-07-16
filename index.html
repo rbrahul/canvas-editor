@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<!-- side pane -->
+<div class="sidepane col-sm-2 col-md-2 col-lg-2">
+  <div class="form">
+    <h3>Form</h3>
+    <form action="" enctype="multipart/form-data" method="post">
+      <input type="file" id="upload" class="form-control" placeholder="Upload Your Images" name="upload">
+      <button id="submit" type="button" class="btn btn-default">upload</button>
+    <!-- Upload Form here -->
+  </form>
+  </div>
+  <hr />
+  <div class="assets">
+    <h3>Assets</h3>
+    <div class="text">
+        <h4>Text</h4>
+        <button id="addText" class="btn btn-default add-text-btn">Add Text</button>
+    </div>
+    <div class="image">
+        <h4>Images</h4>
+        <ul class="list-unstyled image-lists">
+            <!-- List of images here -->
+
+        </ul>
+          <div class="clear-fix"></div>
+    </div>
+  </div>
+
+</div>
+<!-- canvas -->
+<div class="canvas col-sm-8 col-md-8 col-lg-8" >
+    <div class="block canvas-draggable-area">
+        <!-- Add images and texts to here -->
+        <!-- <div class="canvas-content-item" >
+          <span class="delete-node"><i class="ion-android-close"></i></span>
+            <div class="text-content" contenteditable="true">Your Text</div>
+        </div> -->
+
+       <!-- <div class="canvas-content-item" >
+          <span class="delete-node"><i class="ion-android-close"></i></span>
+            <img src="images/uploads-1462948453043.png" class="canvas-image-item"/>
+        </div>
+    </div> -->
+</div>
+<script src="js/draggingCanvasItem.js"></script>
+<script src="js/addNewCanvasItem.js"></script>
+</body>
+</html>
