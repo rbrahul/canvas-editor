@@ -49,6 +49,7 @@ cursor: pointer;
 
 .canvas .block {
   position: relative;
+  overflow: hidden;
   width: 600px;
    height: 600px;
   margin: 10px;
@@ -84,7 +85,7 @@ cursor: pointer;
 }
 .text-content{
   font-size:20px;
-  color:#666;
+  color:#333;
   padding:10px;
   width:auto;
   padding:10px;
@@ -106,7 +107,7 @@ cursor: pointer;
   display: block;
 }
 .canvas-image-item{
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   cursor: auto;
 }
