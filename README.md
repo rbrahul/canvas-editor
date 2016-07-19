@@ -29,4 +29,4 @@ Server is listening to port `8000`
 /uploads
 ```
 
-
+## Image View: ![Smart-ToDo](https://raw.githubusercontent.com/rbrahul/canvas-editor/master/Screenshot-of-project-output.png)
